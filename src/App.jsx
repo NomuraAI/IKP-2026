@@ -23,6 +23,11 @@ function App() {
           <p className="text-slate-500 font-medium">
             Portal Akses Cepat Meeting & Materi
           </p>
+          <div className="pt-4 pb-2">
+            <h2 className="text-lg font-semibold text-blue-700 bg-blue-50 py-2 px-4 rounded-lg border border-blue-100">
+              "Konsultasi Publik Rancangan Awal RKPD Kab.Lombok Barat 2027"
+            </h2>
+          </div>
         </div>
 
         {/* Links Grid */}
