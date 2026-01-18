@@ -1,5 +1,5 @@
 import React from 'react';
-import { Video, ClipboardCheck, BookOpen } from 'lucide-react';
+import { Video, ClipboardCheck, BookOpen, Image } from 'lucide-react';
 import LinkCard from './components/LinkCard';
 import { LINKS, LABELS } from './config';
 import logo from './assets/logo.png';
@@ -49,6 +49,12 @@ function App() {
             label={LABELS.materi}
             icon={<BookOpen size={32} />}
             color="bg-gradient-to-r from-orange-400 to-orange-500"
+          />
+          <LinkCard
+            href={LINKS.virtualBackground}
+            label={LABELS.virtualBackground}
+            icon={<Image size={32} />}
+            color="bg-gradient-to-r from-purple-500 to-indigo-600"
           />
         </div>
 
