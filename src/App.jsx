@@ -1,5 +1,5 @@
 import React from 'react';
-import { Video, ClipboardCheck, BookOpen, Image } from 'lucide-react';
+import { Video, ClipboardCheck, BookOpen, Image, MessageSquare } from 'lucide-react';
 import LinkCard from './components/LinkCard';
 import { LINKS, LABELS } from './config';
 import logo from './assets/logo.png';
@@ -43,6 +43,12 @@ function App() {
             label={LABELS.absensi}
             icon={<ClipboardCheck size={32} />}
             color="bg-gradient-to-r from-emerald-500 to-emerald-600"
+          />
+          <LinkCard
+            href={LINKS.saran}
+            label={LABELS.saran}
+            icon={<MessageSquare size={32} />}
+            color="bg-gradient-to-r from-cyan-500 to-cyan-600"
           />
           <LinkCard
             href={LINKS.materi}
