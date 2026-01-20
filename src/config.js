@@ -1,5 +1,5 @@
 export const LINKS = {
-    zoom: "https://us05web.zoom.us/j/83700430452?pwd=1kaHiMue5nbpZRV0ZamaaaUDkY2I6v.1",
+    zoom: "https://telkomsel.zoom.us/j/96809281737?pwd=QrrGxSsZGlKlK6D3QNhIUTG18S5cHx.1",
     absensi: "https://near.tl/sm/Nd1jmJLUx",
     materi: "https://drive.google.com/drive/folders/1MdkPdBK9_5gvhlz7js_42SoJADF4KWPO?usp=drive_link",
     virtualBackground: "https://drive.google.com/file/d/1EIhr9uicXfi1bBvfLXRJQFxr21KhbQ-X/view?usp=drive_link",
